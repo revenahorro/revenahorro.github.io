@@ -365,12 +365,12 @@
                                      <div class="pt-3">
                                          
                                         	<div class="form-row">
-                                                <div class="form-group col-md-4">
+                                               <!-- <div class="form-group col-md-4">
                                                     <label>Tiempo activación inicial</label>
                                                     <h4 class="text-black">
                                                     	<span id="userinitime">0</span>
                                                 	</h4>
-                                                </div>
+                                                </div> -->
                                                 <div class="form-group col-md-4">
                                                     <label>Monto pendiente de ser activado</label>
                                                     <h4 class="text-black">
@@ -462,17 +462,12 @@
 										<div class="basic-form pt-4">
 
 											<form action="">
-
-												<div class="input-group mb-3">
-													<div class="input-group-prepend">
-														<span class="input-group-text">Enlace para ayudar a otros</span>
-													</div>
-                                    				<input id="accountRef" type="text" class="form-control">
-		                                            <div class="input-group-append">
-		                                                <button onclick="copy()" class="btn btn-primary" type="button">Copiar</button>
-		                                            </div>
-                                				</div>
-
+                                				<div class="input-group mb-3">
+                                            		<input id="accountRef" type="text" class="form-control" placeholder="Enlace para ayudar a otros">
+                                            		<div class="input-group-append">
+                                                		<button class="btn btn-primary" type="button">Copiar</button onclick="copy()">
+                                            	</div>
+                                        </div>
 											</form>
 											<div class="row align-items-end">
 												<div class="col-xl-6 col-lg-12 col-xl-12">
