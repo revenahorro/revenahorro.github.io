@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Bienvenido al nuevo estilo de aumentar tu capital </title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon2.png">
+	<link rel="stylesheet" href="./vendor/chartist/css/chartist.min.css">
+    <link href="./vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+	<link href="./vendor/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+	
+</head>
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+		<!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body ml-0">
+			<div class="container-fluid">
+				<div class="form-head mb-sm-3 mb-3 d-flex flex-wrap align-items-center">
+					<h2 class="font-w600 mb-2 mr-auto ">
+						<img  src="./images/logo-revena.png" width="200px">
+					</h2>
+
+					<div class="weather-btn mb-2">
+						<span class="mr-3 fs-22 font-w600 text-black"><i class="fa fa-globe mr-2"></i></span>
+						<select class="form-control style-1 default-select  mr-3 ">
+							<option>Español</option>
+						</select>
+					</div>
+					<div class="weather-btn mb-2">
+						<a href="javascript:void(0);" class="btn btn-secondary">
+							<i class="las la-file scale5 mr-3"></i>
+							PDF
+						</a>
+						&nbsp;
+						<a href="https://smartflow.do" class="btn btn-secondary" target="_blank">
+							<i class="las la-exchange-alt scale5 mr-3"></i>
+							Smartflow Exchange
+						</a>
+						&nbsp;
+						<p id="address1" class="text-white m-0">Conecte su billetera</p>
+					<!--	<p id="address" class="text-white m-0">Conecte su billetera</p> -->
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xl-12 .px-5" style="padding-right: 40px;">
+						<p class='text-right text-muted'>Funcionando desde <span id="alltime"> 0 año 0 meses 0 dia </span></p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xl-12">
+                        <div class="card">
+							<div class="card-body p-3">
+                                <div id="carousel" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="rounded d-block w-100" src="./images/big/liberty-bg.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+
+                                            <img class="rounded d-block w-100" src="./images/big/worldrevena.jpg" alt="Third slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="rounded d-block w-100" src="./images/big/oro.jpg" alt="Third slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="rounded d-block w-100" src="./images/big/compound-interest.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="rounded d-block w-100" src="./images/big/future.jpg" alt="Second slide">
+                                        </div>
+					<div class="carousel-item">
+                                            <img class="rounded d-block w-100" src="./images/big/ahorro-revena.jpg" alt="Second slide">
+                                        </div>
+   
+                                    </div><a class="carousel-control-prev" href="#carousel" data-slide="prev"><span class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span> </a><a class="carousel-control-next" href="#carousel" data-slide="next"><span class="carousel-control-next-icon"></span>
+                                        <span class="sr-only">Next</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+
+				<!-- ************** END CAROUSEL ************* -->
+
+				<!-- ************** FIRST DEPOSIT ************* -->
+
+				<div id="first-deposit" class="row">
+					
+					<div class="col-xl-6 col-xl-12">
+								<div class="card">
+									<div class="card-header d-sm-flex d-block pb-0 border-0">
+										<div>
+											<h4 class="fs-20 text-black">Plan 365 Plus</h4>
+											<p class="mb-0 fs-12">
+												Necesita una dirección de padrino para registrarse.
+											</p>
+										</div>
+										<div class="dropdown custom-dropdown d-block mt-3 mt-sm-0 mb-0">
+											<a href="javascript:void(0)" class="badge badge-rounded badge-outline-primary">
+												Billetera
+											</a>
+										</div>
+									</div>
+									<div class="card-body">	
+										<div class="basic-form">
+											<form class="form-wrapper" _lpchecked="1">
+												<div class="form-group">
+													<div class="input-group input-group-lg">
+														<div class="input-group-prepend">
+															<span class="input-group-text">Enlace compartido</span>
+														</div>
+														<input autocomplete="off" id="refererAddress" type="text" class="form-control" placeholder="Enlace compartido">
+													</div>
+												</div>
+												<div class="form-group">
+													<div class="input-group input-group-lg">
+														<div class="input-group-prepend">
+															<span class="input-group-text ">Monto USDT</span>
+														</div>
+														<input id="depositAmount" type="number" class="form-control" placeholder="0,000000">
+													</div>
+												</div>
+												<div class="row mt-4 align-items-center">
+													<div class="col-sm-6 mb-2">
+														<div>
+															<p class="mb-0 fs-14">Balance en su cartera <span id="balance4"> 0 </span> USDT</p>
+															<p class="mb-0 fs-14">Inversión mínima 100 USDT</p>
+														</div>
+													</div>
+													<div class="col-sm-6 text-sm-right text-left">
+														<button  type="button" class="btn btn-primary btn-lg" onclick="deposit()">Invertir ahora</button>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+				</div>
+				
+				<!-- ************* END FIRST DEPOSIT ****************** -->
+
+
+				<!-- ************** ACTIVE CUSTOMER ************* -->
+				<div id="active-customer" class="row">
+
+					<!-- ************** INFO PLAN  ************* -->
+					<div class="col-xl-8 col-lg-8">
+
+						<div class="card">
+                            <div class="card-body">
+                                <div class="profile-tab">
+                                    <div class="custom-tab-1">
+                                        <ul class="nav nav-tabs">
+                                            <li class="nav-item"><a href="#billetera-section" data-toggle="tab" class="nav-link show active">Plan 365 Plus</a>
+                                            </li>
+                                            <li class="nav-item"><a href="#retiro-section" data-toggle="tab" class="nav-link">Retiro</a>
+                                            </li>
+                                            <li class="nav-item"><a href="#profile-settings" data-toggle="tab" class="nav-link">Estadisticas</a>
+                                            </li>
+                                            <li class="nav-item"><a href="#link-referidor-section" data-toggle="tab" class="nav-link">Compartir enlace</a>
+                                            </li>
+                                        </ul>
+                                        <div class="tab-content">
+                                            <div id="billetera-section" class="tab-pane fade active show">
+                                                <div class="my-post-content pt-3">
+                                                    <div class="post-inputx">
+                                        
+
+										<div class="row align-items-end">
+											<div class="col-xl-6 col-lg-12 col-xl-12">
+												<div class="row">
+													<div class="col-sm-6">
+														<div class="mb-4">
+															<p class="mb-2">Ganancias disponibles</p>
+															<span id="divestable" class="text-big divestable">0.00</span> &nbsp; USDT
+														</div>
+														<div class="mb-4">
+															<p class="mb-2">Balance en billetera</p>
+															<p>
+															<span id="balance" class="text-black">0</span> USDT
+														</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="mb-4">
+															<p class="mb-2">Mi Cartera</p>
+															<h6 class="text-black" id="address">No conectado </h6>
+															
+
+														</div>
+														<div class="mb-4">
+															<p class="mb-2">Padrino</p>
+															<h6 class="text-black" id="sponsoraddress">
+															No tiene padrino
+															</h6>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-xl-6 col-lg-12 col-xl-12 mb-lg-0 mb-3">
+												<p>Tiempo hasta siguiente ciclo</p>
+												<div class="row">
+													<div class="col-sm-4 mb-sm-0 mb-4 text-center">
+														<!--<div class="progress mb-2">
+															<div class="progress-bar progress-animated bg-warning" style="width: 50%"></div>
+														</div> -->
+														<h5 class="fs-18 text-black" id="nextcycle">0</h5>
+													</div>
+													<div class="col-sm-8 mb-sm-0 mb-8 text-right">
+														<!--
+														<a href="javascript:void(0);" class="btn btn-success" data-toggle="modal" data-target="#invertirModal">Invertir Ahora
+														</a> -->
+														<button id="btn-deposit" class="btn btn-success">Invertir Ahora
+														</button>
+
+														<button id="btn-withdraw" class="btn btn-danger">Solicitar Retiro
+														</button>
+
+														<!--	
+														<a href="javascript:void(0);" class="btn btn-danger" data-toggle="modal" data-target="#retiroModal">Solicitar Retiro
+														</a>
+														-->
+
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<!-- Modal Invertir -->
+										<div class="modal fade" id="retiroModal">
+											<div class="modal-dialog modal-dialog-centered" role="document">
+												<div class="modal-content">
+			                                        <div class="modal-header">
+	                                                    <h5 class="modal-title">Solicitar Retiro | Plan 365 Plus</h5>
+	                                                    <button type="button" class="close" data-dismiss="modal"><span>×</span>
+	                                                    </button>
+	                                                </div>
+			                                        <div class="modal-body">
+			                                        	<label>
+			                                        		Monto disponible para "solicitar retiro": 0.00 USDT 
+			                                        	</label>
+			                                            <input id="withdrawAmount" type="text" name="" class="form-control" placeholder="Monto USDT">
+			                                        </div>
+	                                                <div class="modal-footer">
+	                                                    <button type="button" class="btn btn-danger light" data-dismiss="modal">Cerrar</button>
+	                                                    <button type="button" class="btn btn-primary">Aceptar</button>
+	                                                </div>
+                                            	</div>
+											</div>
+										</div>
+
+														
+												
+										<!-- Modal retirar -->
+										<div class="modal fade" id="invertirModal">
+											<div class="modal-dialog modal-dialog-centered" role="document">
+												<div class="modal-content">
+			                                        <div class="modal-header">
+	                                                    <h5 class="modal-title"></h5>
+	                                                    <button type="button" class="close" data-dismiss="modal"><span>×</span>
+	                                                    </button>
+	                                                </div>
+			                                        <div class="modal-body">
+			                                        	<label id="lb-monto-available">
+			                                        		Monto disponible para "solicitar retiro": 
+			                                        		<span id="divestable2"> 0.00</span>USDT
+										<p> En el caso de ya tener retiros solicitados no se podrán solicitar nuevos retiros durante los últimos 5 días de "Tiempo para retiro". </p>
+			                                        	</label>
+									<label id="lb-monto-inversion">
+			                                        		Inversión mínima: 100 USDT. <p>Balance en su cartera:  
+										<span id="balance2"> 0.00</span> USDT </p>
+			                                        	</label>
+			                                            <input id="depositAmount2" type="text" name="" class="form-control" placeholder="Monto USDT">
+			                                        </div>
+	                                                <div class="modal-footer">
+	                                                    <button type="button" class="btn btn-danger light" data-dismiss="modal">Cerrar</button>
+	                                                    
+	                                                    <button id='btn-modal-deposit' type="button" class="btn btn-primary" onclick="deposit2()">Aceptar</button>
+	                                                    
+	                                                    <button id='btn-modal-withdraw' type="button" class="btn btn-danger" onclick="partialwithdraw()">
+	                                                    Solicitar Ahora	
+	                                                    </button>
+
+	                                                </div>
+                                            	</div>
+											</div>
+										</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!-- ************** RETIRO SECTION  ************* -->
+                                <div id="retiro-section" class="tab-pane fade">
+            
+										<div class="row align-items-end pt-3">
+											<div class="col-xl-6 col-lg-12 col-xl-12">
+												<div class="row">
+													<div class="col-sm-6">
+														<div class="mb-4">
+															<p class="mb-2">Tiempo para retiro</p>
+															<span id="timewithdraw" class="text-black">0</span>
+														<!--	<div class="progress mb-2">
+															<div class="progress-bar progress-animated bg-warning" style="width: 50%"></div>
+														</div> -->
+														</div>
+														<div class="mb-4">
+															<p class="mb-2">Cantidad solicitada para retirar:</p>
+															<span id="withdrawreq" class="text-black">0</span>
+															USDT
+														</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="mb-4">
+															<p class="mb-2">Cantidad disponible para ser retirada</p>
+															<span id="withdrawunblock" class="text-black">0</span>
+															USDT
+														</div>
+														<div class="mb-4">
+							
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-xl-6 col-lg-12 col-xl-12 mb-lg-0 mb-3">
+												<p></p>
+												<div class="row">
+													<div class="col-sm-4 mb-sm-0 mb-4 text-center">
+													
+													</div>
+													<div class="col-sm-8 mb-sm-0 mb-8 text-right">
+													<button id='btn-modal-deposit' type="button" class="btn btn-danger" onclick="withdraw()">Retirar</button>	
+														<!--<a href="javascript:void(0);" class="btn btn-danger" data-toggle="modal" data-target="#postModal">Retirar
+														</a> -->
+
+													</div>
+												</div>
+											</div>
+										</div>          
+                                      </div>
+                                <!-- ************** ESTADISTICA SECTION  ************* -->    
+                                   <div id="profile-settings" class="tab-pane fade">
+                                     <div class="pt-3">
+                                         
+                                        	<div class="form-row">
+                                               <!-- <div class="form-group col-md-4">
+                                                    <label>Tiempo activación inicial</label>
+                                                    <h4 class="text-black">
+                                                    	<span id="userinitime">0</span>
+                                                	</h4>
+                                                </div> -->
+						<div class="form-group col-md-4">
+                                                    <label>Total Depositado</label>
+                                                    <h4 class="text-black">
+                                                   		<span id="totaluserdep" class="text-black">0</span> USDT
+                                                   	</h4>
+                                                </div>
+						<div class="form-group col-md-4">
+                                                    <label>Total Interés ganado</label>
+                                                    <h4 class="text-black">
+                                                    	<span id="totalint">0</span> USDT
+                                                    </h4>
+                                                </div>
+						<div class="form-group col-md-4">
+                                                    <label>Depositado+Interés activo </label>
+                                                    <h4 class="text-black">
+                                                    	<span id="userprofit" class="text-black">0</span> USDT
+                                                    </h4>
+                                                </div>	
+						
+                                                
+                                               
+                                            </div>
+
+                                        	<div class="form-row">
+						<div class="form-group col-md-4">
+                                                    <label>% Ganancias</label>
+                                                    <h4 class="text-black">
+                                                    	<span id="totalgan" class="text-black">0</span>%
+                                                    </h4>
+                                                </div>
+						<div class="form-group col-md-4">
+                                                    <label>ROI</label>
+                                                    <h4 class="text-black">
+                                                    	<span id="userroi" class="text-black">0</span> % cada ciclo (14 días)
+                                                    </h4>
+                           
+                                                </div>
+						<div class="form-group col-md-4">
+                                                    <label>Monto disponible para "solicitar retiro"</label>
+                                                    <h4 class="text-black">
+                                                    	<span id="divestable3" class="divestable">0</span> USDT
+                                                    </h4>
+                                                </div>
+                                                
+                                                
+                                                
+                                            </div>
+
+                                        	<div class="form-row">
+                                                
+                                                <div class="form-group col-md-4">
+                                                    <label>Total Retirado</label>
+                                                    <h4 class="text-black">
+                                                    	<span id="userpayout" class="text-black">0</span> USDT
+                                                    </h4>
+                                                </div>
+						<div class="form-group col-md-4">
+                                                    <label>Monto pendiente de ser activado</label>
+                                                    <h4 class="text-black">
+                                                    	<span id="pendingactivation">0</span>
+                                                		USDT
+                                                	</h4>
+                                                </div>
+						<div class="form-group col-md-4">
+                                                    <label>Tiempo hasta activación</label>
+                                                    <h4 class="text-black">
+                                                    	<span id="useractivation" class="text-black">0</span>
+                                                	</h4>
+                                                </div>
+                                                
+                                            </div>
+
+
+                                           <div class="form-row">
+                                                 <div class="form-group col-md-4">
+                                                    <label>Tiempo finalización contrato</label>
+							<h4 class="text-black">
+                                                    <span id="usertime" class="text-black">0</span>
+							</h4>
+                                                </div>
+                                                
+                                                <div class="form-group col-md-4">
+                                                    <label></label>
+                                                    <h4 class="text-black">
+                                                		
+                                                	</h4>
+                                                </div>
+                                            </div>
+
+                                                           		
+                               	     </div>
+                            	  </div>
+                            	<!-- ************** END ESTADISTICA SECTION  ************* -->  
+
+							<!-- ******************* Link Referidor *****************-->
+
+								<div id="link-referidor-section" class="tab-pane fade">
+										<div class="basic-form pt-4">
+
+											<form action="">
+                                				<div class="input-group mb-3">
+                                            		<input id="accountRef" type="text" class="form-control" placeholder="Enlace para ayudar a otros">
+                                            		<div class="input-group-append">
+                                                		<button  onclick="copy()" class="btn btn-primary" type="button">Copiar</button>
+                                            	</div>
+                                        </div>
+											</form>
+											<div class="row align-items-end">
+												<div class="col-xl-6 col-lg-12 col-xl-12">
+													<div class="row">
+														<div class="col-sm-6">
+															<div class="mb-4">
+																<p class="mb-2">Compartidos</p>
+																<h4 class="text-black"><span id="aff1">0</span></h4>
+															</div>
+															<div class="mb-4">
+						
+															</div>
+														</div>
+														<div class="col-sm-6">
+															<div class="mb-4">
+																<p class="mb-2">Regalos</p>
+																<h4 class="text-black"><span id="refrewards">0</span> USDT</h4>
+																
+															</div>
+															<div class="mb-4">
+			
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+										</div><!-- basi-form pt-3 -->
+                                                
+                                </div>
+
+							<!-- ******************** End Referidor *****************-->
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+					</div>
+					<!-- ************** END INFO PLAN ************* -->
+
+					<!-- ******************* LATEST NEWS ***************** -->
+					<div class="col-xl-4 col-lg-4">
+						<div class="card">
+									<div class="card-header pb-0 border-0">
+										<h4 class="mb-0 text-black fs-20">Ultimas noticias</h4>
+										<div class="dropdown custom-dropdown mb-0">
+											<div class="btn sharp tp-btn" data-toggle="dropdown" aria-expanded="false">
+												<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M12.0049 13C12.5572 13 13.0049 12.5523 13.0049 12C13.0049 11.4477 12.5572 11 12.0049 11C11.4526 11 11.0049 11.4477 11.0049 12C11.0049 12.5523 11.4526 13 12.0049 13Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+													<path d="M12.0049 6C12.5572 6 13.0049 5.55228 13.0049 5C13.0049 4.44772 12.5572 4 12.0049 4C11.4526 4 11.0049 4.44772 11.0049 5C11.0049 5.55228 11.4526 6 12.0049 6Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+													<path d="M12.0049 20C12.5572 20 13.0049 19.5523 13.0049 19C13.0049 18.4477 12.5572 18 12.0049 18C11.4526 18 11.0049 18.4477 11.0049 19C11.0049 19.5523 11.4526 20 12.0049 20Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="card-body height300 dz-scroll ps ps--active-y" id="about-3">
+
+										<div class="media pt-3 pb-3">
+											<img src="images/bitcoin.jpeg" alt="image" class="mr-3 rounded" width="75">
+											<div class="media-body">
+													<h5 class="m-b-5"><a href="https://the-bitcoin-news.com/" class="text-black" target="_blank">Noticias del Bitcoin</a></h5>
+													<p class="mb-0">Bitcoin es una moneda digital o también se puede llamar "efectivo digital". Ningún banco tiene dominio sobre él, por eso se le llama "Moneda Descentralizada"</p>
+											</div>
+										</div>
+
+										<div class="media pt-3 pb-3">
+											<img src="images/exchange.jpeg" alt="image" class="mr-3 rounded" width="75">
+											<div class="media-body">
+													<h5 class="m-b-5"><a target="_blank" href="https://smartflow.do" class="text-black">Cambia tus cryptomonedas en SmartFlow</a></h5>
+													<p class="mb-0">La forma más segura para vender y comprar tus cryptomonedas...</p>
+											</div>
+										</div>
+									<div class="card-footer border-0 p-0 caret">
+										<a href="#" class="btn-link"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+									</div>
+								</div>
+					</div>
+					<!-- *******************.END NEWS ******************** -->
+
+				</div>
+				<!-- *************** END ACTIVE CUSTOMER ********* -->
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+  <!-- Custom Popover -->
+
+  <div class="custom-popover d-flex">
+    <span class="fas fa-check text-white mt-1 mr-2"></span>
+    <p id="custom-popover-msg" class="text-white m-0"></p>
+  </div>
+
+  <div class="popup error-popover">
+    <div class="box">
+      <p id="popup-error-msg" class="text-white m-0"></p>
+    </div>
+  </div>
+
+  <div class="popup success-popover">
+    <div class="box">
+      <p id="popup-success-msg" class="text-white m-0"></p>
+    </div>
+  </div>
+
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright © Designed &amp; Developed by <a href="#" target="_blank">RevenAhorro</a> All Rights</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+
+
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="./vendor/global/global.min.js"></script>
+	<script src="./vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+	<script src="./vendor/chart.js/Chart.bundle.min.js"></script>
+	
+	<!-- Chart piety plugin files -->
+    <script src="./vendor/peity/jquery.peity.min.js"></script>
+	
+	<!-- Apex Chart -->
+	<script src="./vendor/apexchart/apexchart.js"></script>
+	
+	<!-- Dashboard 1 -->
+	<script src="./js/dashboard/dashboard-1.js"></script>
+	
+	<script src="./vendor/owl-carousel/owl.carousel.js"></script>
+    <script src="./js/custom.min.js"></script>
+	<script src="./js/deznav-init.js"></script>
+
+<!-- Tronweb -->
+  <script src="assets/js/TronWeb.js"></script>
+  <script src="assets/js/test3.js"></script>
+    
+    <script>
+  /*	
+           $( "#active-customer" ).hide();
+		$( "#btn-invertir" ).click(function( event ) {
+		  event.preventDefault();
+		  $( "#first-deposit" ).remove();
+		  $( "#active-customer" ).show();
+		  var monto = $("#depositAmount").val()
+		  console.log(monto)
+		}); */
+
+	   $(function () {
+	        $("#btn-deposit").click(function () {
+	            var title = "Invertir | Plan 365 Plus";
+	 
+	 			$("#lb-monto-available").hide();
+	 			$("#btn-modal-withdraw").hide();
+	 		//	$("#depositAmount").val('');
+	            $("#invertirModal .modal-title").html(title);
+	            
+	            $("#invertirModal").modal("show");
+			$("#lb-monto-inversion").show();
+	            $("#btn-modal-deposit").show();
+
+	        });
+
+	        $("#btn-withdraw").click(function () {
+	            var title = "Solicitar Retiro | Plan 365 Plus";
+	 
+	 			$("#btn-modal-deposit").hide();
+			        $("#lb-monto-inversion").hide();
+	 		//	$("#depositAmount").val('');
+	            $("#invertirModal .modal-title").html(title);
+	            
+	            $("#invertirModal").modal("show");
+	            $("#lb-monto-available").show();
+	            $("#btn-modal-withdraw").show();
+
+	        });
+
+	    });
+
+	</script>
+
+</body>
+</html>
